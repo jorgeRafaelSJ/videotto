@@ -4,10 +4,9 @@ import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 import { ConnectedRouter } from 'react-router-redux'
 import store, { history } from './store'
-import App from './containers/app'
-import registerServiceWorker from './registerServiceWorker';s
-
-import './index.css'
+import App from './app'
+import * as style from './global-styles'
+import registerServiceWorker from './registerServiceWorker'
 
 const target = document.querySelector('#root')
 
